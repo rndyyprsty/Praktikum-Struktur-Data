@@ -1,26 +1,22 @@
 #include <iostream>
 
-// Function to calculate the area of a circle
-double calculateCircleArea(double radius) {
-    const double PI = 3.14159265358979323846;
-    return PI * radius * radius;
+using namespace std;
+
+int hitungLuasPersegiPanjang(int panjang, int lebar) {
+    return panjang * lebar;
 }
 
-// Function to check if a number is even or odd
-void checkEvenOdd(int number) {
-    if (number % 2 == 0) {
-        std::cout << number << " is even." << std::endl;
-    } else {
-        std::cout << number << " is odd." << std::endl;
-    }
+int hitungKelilingLingkaran(int jariJari) {
+    return 2 * 3.14 * jariJari;
 }
 
 int main() {
-    double radius = 5.5;
-    int number = 13;
+    int panjang = 5;
+    int lebar = 3;
+    cout << "Luas persegi panjang dengan panjang " << panjang << " dan lebar " << lebar << " adalah: " << hitungLuasPersegiPanjang(panjang, lebar) << endl;
 
-    std::cout << "The area of the circle with radius " << radius << " is " << calculateCircleArea(radius) << std::endl;
-    checkEvenOdd(number);
+    int jariJari = 7;
+    cout << "Keliling lingkaran dengan jari-jari " << jariJari << " adalah: " << hitungKelilingLingkaran(jariJari) << endl;
 
     return 0;
 }

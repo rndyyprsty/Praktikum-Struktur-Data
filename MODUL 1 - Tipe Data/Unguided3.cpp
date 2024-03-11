@@ -2,14 +2,17 @@
 #include <map>
 
 int main() {
-    std::map<int, std::string> mapExample;
+    std::map<std::string, int> umur;
 
-    mapExample[1] = "one";
-    mapExample[2] = "two";
-    mapExample[3] = "three";
+    umur["Birdway"] = 25;
+    umur["Misaka"] = 30;
+    umur["Othinus"] = 20;
 
-    for (const auto& elem : mapExample) {
-        std::cout << elem.first << ": " << elem.second << std::endl;
+    std::cout << "Umur Birdway: " << umur["Birdway"] << std::endl;
+
+    std::cout << "Semua Umur:" << std::endl;
+    for (const auto& pair : umur) {
+        std::cout << pair.first << ": " << pair.second << std::endl;
     }
 
     return 0;
