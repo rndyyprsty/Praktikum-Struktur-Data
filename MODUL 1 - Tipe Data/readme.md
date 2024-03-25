@@ -308,11 +308,11 @@ Map
 - Umumnya memiliki kompleksitas waktu O(log n) untuk akses, yang mana n adalah jumlah elemen dalam map.
 
 #### Output:
-![Screenshot 2024-03-11 172809](https://github.com/rndyyprsty/Praktikum-Struktur-Data/assets/162487464/5e1755e7-f042-4ab8-b077-379286be258a)
-
 ![Screenshot 2024-03-11 161001](https://github.com/rndyyprsty/Praktikum-Struktur-Data/assets/162487464/91f5c177-8ed8-49e9-a2af-2b5d1e878d90)
 
 ![Screenshot 2024-03-11 172749](https://github.com/rndyyprsty/Praktikum-Struktur-Data/assets/162487464/86fc4b29-2c47-41ae-9ee9-67cd9509c673)
+
+![Screenshot 2024-03-11 172809](https://github.com/rndyyprsty/Praktikum-Struktur-Data/assets/162487464/5e1755e7-f042-4ab8-b077-379286be258a)
 
 ## Kesimpulan
 Praktikum ini mendalami konsep dasar tipe-tipe data dalam bahasa C++ yang terdiri dari data primitif, abstrak dan koleksi. Dari cara pemilihan data yang tepat hingga cara menyimpan dan mengelola data.
