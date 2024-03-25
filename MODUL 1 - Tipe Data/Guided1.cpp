@@ -5,6 +5,7 @@ int main()
 {
 char op;
 float num1, num2;
+int ex1;
 // It allows user to enter operator i.e. +, -, *, /
 cin >> op;
 // It allow user to enter the operands
