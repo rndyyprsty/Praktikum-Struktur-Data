@@ -10,7 +10,7 @@ Algoritma sorting adalah suatu metode atau teknik untuk mengurutkan data atau el
 
 ### 1. Insertion Sort
 
-Insertion Sort adalah adalah sebuah algoritma pengurutan yang membandingkan dua elemen data pertama, mengurutkannya, kemudian mengecek elemen data berikutnya satu persatu dan membandingkannya dengan elemen data elemen, menemukan yang terkecil atau yang terbesar sesuai yang telah diurutkan. Algoritma pengurutan data insertion sort akan memeriksa setiap kebutuhan jenis pengurutan, dan menyisipkan dalam tempat yang tepat[2].
+Insertion Sort adalah adalah sebuah algoritma pengurutan yang membandingkan dua elemen data pertama, mengurutkannya, kemudian mengecek elemen data berikutnya satu persatu dan membandingkannya dengan elemen data elemen, menemukan yang terkecil atau yang terbesar sesuai yang telah diurutkan. Algoritma pengurutan data insertion sort akan memeriksa setiap kebutuhan jenis pengurutan, dan menyisipkan dalam tempat yang tepa[2].
 
 #### Contoh:
 
