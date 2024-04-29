@@ -63,9 +63,11 @@ int main() {
 Kode di atas adalah contoh implementasi struktur dalam C++. Struktur yang didefinisikan disebut Buku dan memiliki lima atribut: judul_buku, pengarang, penerbit, tebal_halaman, dan harga_buku. Selanjutnya, dalam fungsi main(), kita membuat sebuah objek dari struktur Buku dengan nama buku1. Kemudian, nilai-nilai untuk setiap atribut dalam objek tersebut diatur. Setelah mengatur nilai, kita menggunakan perintah cout untuk mencetak informasi buku ke layar, termasuk judul, pengarang, penerbit, tebal halaman, dan harga.
 
 berikut output daripada program diatas:
+
 ![image](https://github.com/rndyyprsty/Praktikum-Struktur-Data/assets/162487464/2d1077d5-a40b-4931-b157-f2033ed7685d)
 
 ### 2. Buatlah sebuah struktur dengan skema seperti dibawah, isi dengan nilai kemudian jalankan.
+
 ![image](https://github.com/rndyyprsty/Praktikum-Struktur-Data/assets/162487464/5d0f9b59-c151-417a-9b4a-14a05697f8f1)
 
 ```C++
@@ -147,6 +149,7 @@ int main() {
 Program ini menyimpan informasi hewan darat dan hewan laut. Untuk setiap jenis hewan ada atribut-atribut seperti nama hewan, jenis kelamin, cara berkembangbiak, alat pernafasan, tempat hidup, karnivora atau tidak, dan beberapa detail khusus. Dua struct HewanDarat dan HewanLaut dibuat terpisah. Kemudian struktur Hewan dengan sub darat_detail dan laut_detail, menyimpan detail khusus dari hewan darat dan laut. Dua objek Hewan dibuat untuk masing-masing jenisnya. Setiap objek diisi dengan informasi spesifik sesuai jenis hewannya. Lalu hasilnya ditampilkan dengan perintah cout.
 
 Berikut outputnya :
+
 ![image](https://github.com/rndyyprsty/Praktikum-Struktur-Data/assets/162487464/ace0894d-e7f2-4029-ab60-e26520590ca9)
 
 ## Unguided 
