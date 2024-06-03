@@ -30,7 +30,7 @@ Fungsi yang menerjemahkan kunci ke indeks array dikenal sebagai fungsi hash. Kun
 
 Collision resolution adalah aspek penting dari hash table, ini agar memastikan data dapat disimpan dan diambil secara efisien bahkan ketika terjadi kolisi. Ini dapat terjadi ketika satu atau lebih nilai hash bersaing dengan satu slot tabel hash. Untuk mengatasi hal ini, slot kosong berikutnya yang tersedia ditetapkan ke nilai hash saat ini[6]. Ada beberapa teknik yang digunakan untuk menyelesaikan hal tersebut:
 
-1. Separate Chaning (Open Hashing): Metode ini melibatkan pembuatan daftar tertaut di setiap slot dalam tabel hash. Ketika tabrakan terjadi, kunci baru ditambahkan ke daftar tertaut di slot yang sesuai. Teknik ini mudah diterapkan dan memungkinkan operasi penyisipan dan penghapusan yang efisien. Namun, hal ini dapat menyebabkan kinerja cache yang buruk dan pemborosan memori karena daftar tertaut.
+1. Separate Chaining (Open Hashing): Metode ini melibatkan pembuatan daftar tertaut di setiap slot dalam tabel hash. Ketika tabrakan terjadi, kunci baru ditambahkan ke daftar tertaut di slot yang sesuai. Teknik ini mudah diterapkan dan memungkinkan operasi penyisipan dan penghapusan yang efisien. Namun, hal ini dapat menyebabkan kinerja cache yang buruk dan pemborosan memori karena daftar tertaut.
 
 2. Open Addressing (Closed Hashing): Metode ini melibatkan penyelidikan tabel hash untuk menemukan slot terbuka ketika terjadi tabrakan. Ada beberapa variasi pengalamatan terbuka, antara lain:
 - Linear Probing: Teknik ini melibatkan pemeriksaan tabel hash dalam urutan linier hingga slot terbuka ditemukan. Hal ini sederhana untuk diterapkan namun dapat menyebabkan pengelompokan, dimana item menjadi terkonsentrasi di area tertentu dari tabel hash.
